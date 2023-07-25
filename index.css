@@ -1,0 +1,838 @@
+#d1{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 1364px;
+    position: absolute;
+}
+
+#txt1{
+    top: 100px;
+}
+
+#lblhme{
+    left: 1000px;
+    position: absolute;
+    top: 10px;
+    font-size: large;
+}
+
+#lblServ
+{
+    left: 1100px;
+    position: absolute;
+    top: 10px;
+    font-size: large;
+}
+
+#lblso
+{
+    left: 1200px;
+    position: absolute;
+    top: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+#lblo
+{
+    position: absolute;
+    top: 10px;
+    font-size: large;
+}
+
+span{
+    font-weight: bold;
+    color: red;
+}
+
+#lblso:hover,#lblServ:hover,#lblhme:hover
+{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+img{
+    top: 50px;
+    position: absolute;
+    width: 1348px;
+    left: -5px;
+}
+
+#crd1
+{
+    width: 300px;
+    height: 200px;
+    top: 710px;
+    /* border: 1px solid black; */
+
+}
+
+#lblttl
+{
+    top: 620px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 20px black;
+    left: 480px ;
+    /* border: 1px solid black; */
+}
+
+#crd1:hover,#crd2:hover,#crd3:hover,#crd4:hover
+{
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 50px goldenrod;
+    top: 700px;
+    transition: 0.4s;
+}
+
+#crd2
+{
+    width: 300px;
+    height: 200px;
+    top: 710px;
+    left: 320px;
+    /* border: 1px solid black; */
+}
+
+#crd3
+{
+    width: 300px;
+    height: 200px;
+    top: 710px;
+    left: 650px;
+    /* border: 1px solid black; */
+}
+
+#crd4
+{
+    width: 300px;
+    height: 200px;
+    top: 710px;
+    left: 980px;
+    /* border: 1px solid black; */
+}
+
+#iblh1
+{
+    top: 920px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l1
+{
+    top: 960px;
+    position: absolute;   
+}
+
+#prc1
+{
+    top: 990px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+}
+
+#iblh2
+{
+    top: 920px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 320PX;
+}
+
+#l2
+{
+    top: 960px;
+    position: absolute;
+    left: 320PX;   
+}
+
+#prc2
+{
+    top: 990px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    left: 320px;  
+}
+
+#iblh3
+{
+    top: 920px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 650px;  
+}
+
+#l3
+{
+    top: 960px;
+    position: absolute;
+    left: 650px;  
+}
+
+#prc3
+{
+    top: 990px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    left: 650px;  
+}
+
+#iblh4
+{
+    top: 920px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 980px;  
+
+}
+
+#l4
+{
+    top: 960px;
+    position: absolute;
+    left: 980px;    
+}
+
+#prc4
+{
+    top: 990px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+    left: 980px;  
+}
+
+#b1
+{
+    top: 1030px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+}
+
+#b1:hover,#b2:hover,#b3:hover,#b4:hover
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#b2
+{
+    top: 1030px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 320PX;
+}
+
+#b3
+{
+    top: 1030px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 650PX;
+}
+
+#b4
+{
+    top: 1030px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 980PX;
+}
+
+#lblttle2
+{
+    top: 1090px;
+    position: absolute;
+    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 20px black;
+    left: 470px;
+}
+
+#crd5
+{
+    width: 300px;
+    height: 200px;
+    top: 1170px;
+    /* border: 1px solid black; */
+}
+
+#crd6
+{
+    width: 300px;
+    height: 200px;
+    top: 1170px;
+    /* border: 1px solid black; */
+    left: 320px;
+}
+
+#crd7
+{
+    width: 300px;
+    height: 200px;
+    top: 1170px;
+    /* border: 1px solid black; */
+    left: 650px;
+}
+
+#crd8
+{
+    width: 300px;
+    height: 200px;
+    top: 1170px;
+    /* border: 1px solid black; */
+    left: 980px;
+}
+
+#crd5:hover,#crd6:hover,#crd7:hover,#crd8:hover
+{
+    top: 1160px;
+    box-shadow: 1px 1px 50px goldenrod;
+    transition: 0.4s;
+}
+
+#iblh5
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l5
+{
+    top: 1420px;
+    position: absolute;   
+}
+
+#prc5
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+}
+
+#iblh6
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 320px;
+}
+
+#l6
+{
+    top: 1420px;
+    position: absolute;   
+    left: 320px;
+}
+
+#prc6
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 320px;
+}
+
+#iblh7
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 650px;
+}
+
+#l7
+{
+    top: 1420px;
+    position: absolute;   
+    left: 650px;
+}
+
+#prc7
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 650px;
+}
+
+#iblh8
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;    
+    left: 980px;
+}
+
+#l8
+{
+    top: 1420px;
+    position: absolute;   
+    left: 980px;
+}
+
+#prc8
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 980px;
+}
+
+#ftr
+{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 2200px;
+    height: 500px;
+    width: 1345px;
+    background-color: gray;
+}
+
+#lblftr
+{
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 260px;
+    left: 369px;
+}
+
+#crd9
+{
+    width: 300px;
+    height: 300px;
+    top: 1650px;
+    /* border: 1px solid black; */
+}
+
+#lblttl3
+{
+    top: 1560px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-shadow: 1px 1px 20px black;
+    left: 475px ;
+    /* border: 1px solid black; */
+}
+
+#crd10
+{
+    width: 300px;
+    height: 300px;
+    top: 1650px;
+    /* border: 1px solid black; */
+    left: 320px;
+}
+
+#crd11
+{
+    width: 300px;
+    height: 300px;
+    top: 1650px;
+    /* border: 1px solid black; */
+    left: 650px;
+}
+
+#crd12
+{
+    width: 300px;
+    height: 300px;
+    top: 1650px;
+    /* border: 1px solid black; */
+    left: 980px;
+}
+
+#iblh9
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l9
+{
+    top: 1420px;
+    position: absolute;   
+}
+
+#prc9
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+}
+
+#iblh10
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 320px;
+}
+
+#l10
+{
+    top: 1420px;
+    position: absolute;   
+    left: 320px;
+}
+
+#prc10
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 320px;
+}
+
+#iblh11
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+    left: 650px;
+}
+
+#l11
+{
+    top: 1420px;
+    position: absolute;   
+    left: 650px;
+}
+
+#prc11
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 650px;
+}
+
+#iblh12
+{
+    top: 1380px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;    
+    left: 980px;
+}
+
+#l12
+{
+    top: 1420px;
+    position: absolute;   
+    left: 980px;
+}
+
+#prc12
+{
+    top: 1450px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;  
+    left: 980px;
+}
+
+#b5
+{
+    top: 1490px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+}
+
+#b5:hover,#b6:hover,#b7:hover,#b8:hover
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#b6
+{
+    top: 1490px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 320PX;
+}
+
+#b7
+{
+    top: 1490px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 650PX;
+}
+
+#b8
+{
+    top: 1490px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 980PX;
+}
+
+#crd9:hover,#crd10:hover,#crd11:hover,#crd12:hover
+{
+    top: 1630px;
+    box-shadow: 1px 1px 50px goldenrod;
+    transition: 0.4s;
+}
+
+#iblh9
+{
+    top: 1970px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l9
+{
+    top: 2038px;
+    position: absolute;   
+}
+
+#prc9
+{
+    top: 2070px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#iblh10
+{
+    top: 1970px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l10
+{
+    top: 2038px;
+    position: absolute;   
+}
+
+#prc10
+{
+    top: 2070px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#iblh11
+{
+    top: 1970px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l11
+{
+    top: 2038px;
+    position: absolute;   
+}
+
+#prc11
+{
+    top: 2070px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#iblh12
+{
+    top: 1970px;
+    position: absolute;
+    font-weight: bold;
+    width: 290px;
+}
+
+#l12
+{
+    top: 2038px;
+    position: absolute;   
+}
+
+#prc12
+{
+    top: 2070px;
+    position: absolute;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#b9
+{
+    top: 2110px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 980PX;
+}
+
+#b10
+{
+    top: 2110px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+}
+
+#b11
+{
+    top: 2110px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 650PX;
+}
+
+#b12
+{
+    top: 2110px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 130px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 140px;
+    left: 320PX;
+}
+
+#b9:hover,#b10:hover,#b11:hover,#b12:hover
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
