@@ -836,3 +836,14 @@ img{
     font-weight: bold;
     transition: 0.3s;
 }
+
+#crd1:not(:hover),#crd2:not(:hover),#crd3:not(:hover),#crd4:not(:hover),#crd5:not(:hover),#crd6:not(:hover)
+,#crd7:not(:hover),#crd8:not(:hover),#crd9:not(:hover),#crd10:not(:hover),#crd11:not(:hover),#crd12:not(:hover)
+{
+    transition: 0.3s;
+}
+
+button:not(:hover)
+{
+    transition: 0.3s;
+}
