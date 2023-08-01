@@ -1,5 +1,11 @@
+body
+{
+    background-image: url(https://e0.pxfuel.com/wallpapers/177/481/desktop-wallpaper-login-background-for-android-tip.jpg);
+    background-size: cover;
+}
+
 #d1{
-    border: 1px solid blueviolet;
+    border: none;
     height: 500px;
     width: 500px;
     left: 450px;
@@ -14,11 +20,11 @@
     position: absolute;
     left: 70px;
     top: 400px;
-    background-color: blueviolet;
+    background-color: lightsteelblue;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    border: 1px solid black;
+    border: none;
     border-radius: 60px;
     width: 350px;
     text-align: center;
@@ -37,13 +43,21 @@
     left: 20px;
     top: 30px;
     width: 430px;
+    height: 40px;
     position: absolute;
+    border-radius: 20px;
+    background: gainsboro;
+    border: none;
 }
 
 #txt2
 {
     left: 20px;
-    top: 130px;
+    top: 100px;
     width: 430px;
+    height: 40px;
+    border-radius: 20px;
     position: absolute;
+    background: gainsboro;
+    border: none;
 }

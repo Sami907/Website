@@ -10,22 +10,36 @@
 </head>
 <body>
     <div id="d1">
-        <a href="index.html" id="button">Sign In</a>
-
-        <div class="col-md-4" id="txt1">
-            <label for="validationCustom01" class="form-label">Username Or Email</label>
-            <input type="text" class="form-control" id="validationCustom01" value="" required>
-        </div>
-        
-        <div class="col-md-4" id="txt2">
-            <label for="validationCustom01" class="form-label">Password</label>
-            <input type="text" class="form-control" id="validationCustom01" value="" required>
-        </div>
+        <button id="button" onclick="GetValueFromTextBox()">Sign In</button>
+        <input type="text" id="txt1" placeholder="Username Or Email">
+        <input type="text" id="txt2" placeholder="Password" autocomplete="off" onblur="GetValueFromTextBox()">
     </div>
 
     <script>
+        function GetValueFromTextBox()
+        {
+            let temp = document.getElementById("txt1");
+            let textval = temp.value;
 
-        
+            let temp2 = document.getElementById("txt2");
+            let textval2 = temp2.value;
+            
+            if(textval == "" && textval2 == "")
+            {
+                alert("Define UserName Or Password");
+                return;
+            }
+            
+            if(textval == "Sami" && textval2 == "123")
+            {
+                this.close()
+                document.open("index.html", "", "noopener=true");
+            }
+            else
+            {
+                alert("Invalid Username Or Password");
+            }
+        }
     </script>
 </body>
 </html>
