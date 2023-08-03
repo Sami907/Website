@@ -34,6 +34,14 @@ body
 {
     cursor: pointer;
     background-color: lightslategray;
+    padding-right: 22px;
+    transition: 0.3s;
+    /* color: white; */
+}
+
+#button:not(:hover)
+{
+    transition: 0.3s;
     /* color: white; */
 }
 
